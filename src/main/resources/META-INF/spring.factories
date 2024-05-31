@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.example.bootstarterlog.config.LoggingAutoConfig
+
+org.springframework.context.ApplicationContextInitializer=\
+  com.example.bootstarterlog.init.LogAppContextInit
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.example.bootstarterlog.init.LogEnvironmentPostProcessor
+
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+  com.example.bootstarterlog.analyzer.LogFailureAnalyzer
